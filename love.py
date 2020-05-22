@@ -35,11 +35,9 @@ def get_profile(username):
        
 sleep(2)
 get_profile('something123417') #The profile you want to target. 
-print('Sleeping')
 sleep(10)
 
-print('I am gonna really sleep boi')
-sleep(7300)
+
 while True: 
     message = webdriver.find_elements_by_css_selector(".iXTil")
     try: 
